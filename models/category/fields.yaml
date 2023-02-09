@@ -1,0 +1,60 @@
+fields:
+  name:
+    label: Название
+    placeholder: Категория
+    required: 1
+    type: text
+  slug:
+    label: URL
+    placeholder: category-url
+    preset:
+      field: name
+      type: slug
+    type: text
+  sort_order:
+    label: Порядок сортировки
+    placeholder: 0
+    required: 1
+    type: number
+    default: 0
+  image:
+    label: Изображение
+    mode: image
+    type: mediafinder
+  heading:
+    label: Заголовок
+    placeholder: Заголовок
+    preset:
+      field: name
+      type: exact
+    type: text
+  description:
+    label: Описание
+    size: small
+    placeholder: "Короткое описание"
+    type: textarea
+tabs:
+  fields:
+    meta_title:
+      label: Title
+      span: full
+      placeholder: "Title в несколько слов"
+      required: 0
+      type: text
+      commentAbove: "Используется в мета-теге title на странице категории"
+      tab: SEO
+    meta_description:
+      label: Description
+      size: small
+      span: full
+      placeholder: "Description в несколько предложений"
+      type: textarea
+      commentAbove: "Используется в мета-теге description на странице категории"
+      tab: SEO
+    meta_keywords:
+      label: Keywords
+      span: full
+      placeholder: "Слова или словосочетания через запятую"
+      type: text
+      commentAbove: "Используется в мета-теге keywords на странице категории"
+      tab: SEO
