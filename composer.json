@@ -1,0 +1,8 @@
+{
+	"name": "yamobile/video-gallery-plugin",
+	"type": "october-plugin",
+	"description": "Video gallery plugin for October CMS",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
