@@ -1,5 +1,5 @@
 {
-	"name": "yamobile/video-gallery-plugin",
+	"name": "yamobile/videogallery-plugin",
 	"type": "october-plugin",
 	"description": "Video gallery plugin for October CMS",
 	"require": {
