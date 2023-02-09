@@ -1,0 +1,10 @@
+name: Video
+form: $/yamobile/videogallery/models/video/fields.yaml
+modelClass: Yamobile\VideoGallery\Models\Video
+defaultRedirect: yamobile/videogallery/video
+create:
+  redirect: "yamobile/videogallery/video/update/:id"
+  redirectClose: yamobile/videogallery/video
+update:
+  redirect: yamobile/videogallery/video
+  redirectClose: yamobile/videogallery/video

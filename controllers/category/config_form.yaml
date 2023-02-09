@@ -1,0 +1,10 @@
+name: Category
+form: $/yamobile/videogallery/models/category/fields.yaml
+modelClass: Yamobile\VideoGallery\Models\Category
+defaultRedirect: yamobile/videogallery/category
+create:
+  redirect: "yamobile/videogallery/category/update/:id"
+  redirectClose: yamobile/videogallery/category
+update:
+  redirect: yamobile/videogallery/category
+  redirectClose: yamobile/videogallery/category

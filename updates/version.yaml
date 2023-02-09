@@ -1,0 +1,7 @@
+0.1.0:
+  - 'Initialize plugin.'
+0.2.0:
+  - 'Add category'
+  - create_yamobile_videogallery_category.php
+  - 'Add video'
+  - create_yamobile_videogallery_video.php

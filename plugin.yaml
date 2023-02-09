@@ -1,0 +1,20 @@
+plugin:
+  name: "yamobile.videogallery::lang.plugin.name"
+  description: "yamobile.videogallery::lang.plugin.description"
+  author: "yamobile.videogallery::lang.plugin.author"
+  icon: video
+  homepage: "https://ya-mobile.ru/"
+navigation:
+  video-gallery:
+    label: Видео галерея
+    icon: icon-video-camera
+    url: yamobile/videogallery/video
+    sideMenu:
+      post:
+        label: Видео
+        url: yamobile/videogallery/video
+        icon: icon-video-camera
+      category:
+        label: Категории
+        url: yamobile/videogallery/category
+        icon: icon-navicon
