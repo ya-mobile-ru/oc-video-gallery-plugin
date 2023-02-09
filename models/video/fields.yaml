@@ -1,0 +1,25 @@
+fields:
+  name:
+    label: Название
+    placeholder: Видео
+    required: 1
+    type: text
+  source:
+    label: Ссылка
+    placeholder: https://www.youtube.com/watch?v=jNQXAC9IVRw
+    type: text
+  sort_order:
+    label: Порядок сортировки
+    placeholder: 0
+    required: 1
+    type: number
+    default: 0
+  image:
+    label: Изображение
+    mode: image
+    type: mediafinder
+  category:
+    label: Категория
+    nameFrom: name
+    descriptionFrom: description
+    type: relation
