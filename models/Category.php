@@ -24,4 +24,11 @@ class Category extends Model
         'slug' => 'required',
         'sort_order' => 'required',
     ];
+
+    /*
+     * Relations
+     */
+    public $hasMany = [
+        'videos' => \Yamobile\VideoGallery\Models\Video::class,
+    ];
 }
