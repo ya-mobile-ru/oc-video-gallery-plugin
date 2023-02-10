@@ -3,7 +3,8 @@ addEventListener("DOMContentLoaded", () => {
 
 	lazyVideos.forEach((lazyVideo) => {
         lazyVideo.addEventListener("click", () => {
-            const source = `${lazyVideo.dataset.lazyVideo}?autoplay=1`;
+            let separator = lazyVideo.dataset.lazyVideo.includes('vk.com') ? '&' : '?';
+            const source = `${lazyVideo.dataset.lazyVideo}${separator}autoplay=1`;
             const embedVideo = document.createElement("iframe");
 
             lazyVideo.querySelector('.video__cover').remove();
