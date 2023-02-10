@@ -5,3 +5,5 @@
   - create_yamobile_videogallery_category.php
   - 'Add video'
   - create_yamobile_videogallery_video.php
+0.2.1:
+  - 'Add vk links support'
