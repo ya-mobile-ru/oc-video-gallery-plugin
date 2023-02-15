@@ -4,9 +4,9 @@ fields:
     placeholder: Видео
     required: 1
     type: text
-  source:
-    label: Ссылка
-    placeholder: https://www.youtube.com/watch?v=jNQXAC9IVRw
+  iframe:
+    label: Код вставки видео
+    placeholder: '<iframe width="961" height="721" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Me at the zoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     type: text
   sort_order:
     label: Порядок сортировки
