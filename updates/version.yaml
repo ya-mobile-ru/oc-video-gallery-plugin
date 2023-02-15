@@ -7,3 +7,8 @@
   - create_yamobile_videogallery_video.php
 0.2.1:
   - 'Add vk links support'
+0.3.0:
+  - 'Add iframe adding support'
+  - add_iframe_to_yamobile_videogallery_video.php
+  - 'Get source nullable'
+  - get_source_nullable_from_yamobile_videogallery_video.php

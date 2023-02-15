@@ -22,7 +22,6 @@ class Video extends Model
      */
     public $rules = [
         'name' => 'required',
-        'source' => 'required',
         'category_id' => 'required',
         'sort_order' => 'required',
     ];
@@ -33,4 +32,20 @@ class Video extends Model
     public $belongsTo = [
         'category' => Category::class,
     ];
+
+    /**
+     * Get the user's first name.
+     *
+     * @return string
+     */
+    public function getSourceAttribute()
+    {
+        $iframe = $this->iframe;
+        $source;
+        preg_match('/src=".*?"/', $iframe, $source);
+        if ($source) {
+            return substr($source[0], 5, -1);
+        }
+        return '';
+    }
 }
